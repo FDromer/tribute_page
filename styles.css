@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --color-light-grey: #f0efef;
+  --color-grey: rgb(190, 190, 190);
+  --color-black: #3f3f3f;
+  --color-body: #131212;
+  --color-link: #003663;
+  --color-link-visited: #49316e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-body);
+  line-height: 1.5;
+}
+
+#main {
+  background-color: var(--color-grey);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 30px 15px;
+}
+
+#title {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#title, p {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+#img-div {
+  background-color: var(--color-light-grey);
+  padding: 15px;
+  margin: 0;
+}
+
+#image {
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 1000px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 25px;
+}
+
+#tribute-info {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  padding-inline-start: 15px;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+.text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+a {
+  color: var(--color-link-visited);
+}
+
+a:visited {
+  color: var(--color-link);
+}
